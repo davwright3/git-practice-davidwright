@@ -1,0 +1,9 @@
+THREE SHORT TERM GOALS
+1. Become more proficient in Git usage, as I have not spent as much time on it as I should so far
+2. Relearn the basics SQL to get through my Database II class.  I have not used SQl in over a year, so it should be fun.
+3. Develop my skills using Python and the customtkinter library in order to update a web app I am developing for baseball stats
+
+THREE LONG TERM CAREER OR ACADEMIC GOALS
+1. Publish a strategy RPG I am currently working on in Unity.
+2. Graduate from UALR.
+3. Find a job in Data Science or Game Development post graduation.
