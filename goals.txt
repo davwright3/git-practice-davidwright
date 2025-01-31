@@ -7,3 +7,6 @@ THREE LONG TERM CAREER OR ACADEMIC GOALS
 1. Publish a strategy RPG I am currently working on in Unity.
 2. Graduate from UALR.
 3. Find a job in Data Science or Game Development post graduation.
+
+
+This is an update to the goals.txt item in order to create a merge conflict with the feature addition branch.
