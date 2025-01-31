@@ -9,8 +9,5 @@ THREE LONG TERM CAREER OR ACADEMIC GOALS
 3. Find a job in Data Science or Game Development post graduation.
 
 
-<<<<<<< HEAD
 This is an update to the goals.txt item in order to create a merge conflict with the feature addition branch.
-=======
 Now this is an update on the feature request branch that I am implementing in order to create a conflict on the main branch when I try to enter the pull request.
->>>>>>> parent of 0e51dce (Merge branch 'main' into feature-addition)
