@@ -1,11 +1,13 @@
 # git-practice-davidwright
 
-#<a name="Name"></a>  Link to name
+* [Name](#name)
+* [Favorite Language](#favorite-language)
+* [Test Line](#test-line)
 
-## Name(#Name)
+## <a name="name"></a>Name
 David Wright
 
-## Favorite Programming Language
+## <a name="favorite-language"></a>Favorite Programming Language
 Python, but also C#
 
 ### What I learned on this assignment
@@ -20,3 +22,53 @@ This was my first time accepting a pull request from another user, and it seems 
 I think I am going to keep working on handling reversions, as that was definitely my weakest understanding on this particular assignment.
 
 Link to repository: https://github.com/davwright3/git-practice-davidwright
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+### <a name="test-line"></a> Test Line
