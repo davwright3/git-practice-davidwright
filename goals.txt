@@ -9,4 +9,5 @@ THREE LONG TERM CAREER OR ACADEMIC GOALS
 3. Find a job in Data Science or Game Development post graduation.
 
 
-This is an update to the goals.txt item in order to create a merge conflict with the feature addition branch.
+
+I have deleted both inputs that were causing the conflict, since they did not add anything to the program and were kind of confusing anyway.
