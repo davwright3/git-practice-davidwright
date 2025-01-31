@@ -7,3 +7,6 @@ THREE LONG TERM CAREER OR ACADEMIC GOALS
 1. Publish a strategy RPG I am currently working on in Unity.
 2. Graduate from UALR.
 3. Find a job in Data Science or Game Development post graduation.
+
+
+Now this is an update on the feature request branch that I am implementing in order to create a conflict on the main branch when I try to enter the pull request.
