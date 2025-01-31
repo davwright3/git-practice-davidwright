@@ -9,4 +9,5 @@ THREE LONG TERM CAREER OR ACADEMIC GOALS
 3. Find a job in Data Science or Game Development post graduation.
 
 
-Now this is an update on the feature request branch that I am implementing in order to create a conflict on the main branch when I try to enter the pull request.
+
+I have deleted both inputs that were causing the conflict, since they did not add anything to the program and were kind of confusing anyway.
