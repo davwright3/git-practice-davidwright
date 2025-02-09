@@ -38,6 +38,28 @@ erDiagram
 ```
 
 ```mermaid
+---
+title: Pokemon App Flow Chart
+---
+flowchart LR
+  
+  A["Start"]-->B{"User or Admin"}
+  B--User-->C{"Views cards"}-->D["Select Card"]-->E{"Add card to deck?"}
+  E--Yes-->F["Card is added to deck"]
+  E--No-->C
+  B--Admin-->G{"Manage Users or Cards"}
+  G--Users-->H["View user requests"]-->I["Select request"]-->J{"Approve request"}
+  J--Yes-->K["User Added"]-->G
+  J--No-->L["Request denied"]-->G
+  G--Cards-->M["View card requests"]-->N["Select request"]-->O{"Approve request?"}
+  O--Yes-->P["Card added to database"]-->G
+  O--No-->Q["Request denied"]-->G
+  
+  
+  
+  
+  
+
 
 ```
 
