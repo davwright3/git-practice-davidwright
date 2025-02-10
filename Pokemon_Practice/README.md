@@ -1,9 +1,7 @@
 # Pokemon Card Storage Web App (working title)
 
+## Pokemon App E-R Diagram
 ```mermaid
----
-title: Pokemon ER Diagram
----
 
 %%ER Diagram for pokemon app
 erDiagram
@@ -34,11 +32,11 @@ erDiagram
     } 
 
 ```
+<br>
+
+## Pokemon App Flowchart
 
 ```mermaid
----
-title: Pokemon App Flow Chart
----
 flowchart LR
   
   A["Start"]-->B{"User or Admin"}
@@ -55,10 +53,9 @@ flowchart LR
   
 ```
 
+## Pokemon App Architecture Diagram
 ```mermaid
----
-title: Pokemon App Architecture Diagram
----
+
 architecture-beta
   
   group pokemonDB(database)[PokemonDB]
@@ -79,4 +76,29 @@ architecture-beta
   
 
 ```
+
+## Pokemon App Endpoint Disgram
+```mermaid
+---
+title: Pokemon App Mindmap
+---
+
+  mindmap
+    root((CardDB))
+      Users
+        GET Cards
+        POST Decks
+        DELETE Decks        
+      Admin
+        GET Users
+        PUT Users
+        DELETE Users
+        GET Cards
+        POST Cards        
+      Cards
+      Decks
+     
+        
+```
+
 
