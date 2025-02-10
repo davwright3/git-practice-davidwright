@@ -31,9 +31,7 @@ erDiagram
       string firstName
       string laseName
       int adminID PK
-    }
-
-  
+    } 
 
 ```
 
@@ -55,11 +53,30 @@ flowchart LR
   O--Yes-->P["Card added to database"]-->G
   O--No-->Q["Request denied"]-->G
   
-  
-  
-  
-  
+```
 
+```mermaid
+---
+title: Pokemon App Architecture Diagram
+---
+architecture-beta
+  
+  group pokemonDB(database)[PokemonDB]
+
+  group cardDB(disk)[CardDB] in pokemonDB
+
+  service users(internet)[Users] in pokemonDB
+  service decks(database)[Decks] in cardDB
+  service admin(internet)[Admin] in pokemonDB
+  service cards(database)[Cards] in cardDB
+
+
+  users:R --> L:decks
+  admin:R --> L:cards
+  admin:B --> T:users
+  decks:T <--> B:cards
+
+  
 
 ```
 
