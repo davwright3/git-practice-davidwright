@@ -18,27 +18,27 @@ def f(b):
  
  
 def app():
-  b=[[" "for _ in range(3)]for _ in range(3)]
-  p=["X","O"]
+  gameboard=[[" "for _ in range(3)]for _ in range(3)]
+  players=["X","O"]
   print("Tic-Tac-Toe Game")
-  show_gameboard(b)
-  for t in range(9):
-   pl=p[t%2]
+  show_gameboard(gameboard)
+  for turn in range(9):
+   current_player=players[turn%2]
    while 1:
     try:
-     r,c=map(int,input(f"P {pl}, row col (0-2): ").split())
-     if b[r][c]==" ":
-      b[r][c]=pl
+     r,c=map(int,input(f"P {current_player}, row col (0-2): ").split())
+     if gameboard[r][c]==" ":
+      gameboard[r][c]=current_player
       break
      else:
       print("Nope. Again.")
     except:
      print("Wrong. 0-2 pls.")
-   show_gameboard(b)
-   if c_w(b,pl):
-    print(f"P {pl} wins!")
+   show_gameboard(gameboard)
+   if c_w(gameboard,current_player):
+    print(f"P {current_player} wins!")
     return
-   if f(b):
+   if f(gameboard):
     print("Draw!")
     return
   print("Draw!")
