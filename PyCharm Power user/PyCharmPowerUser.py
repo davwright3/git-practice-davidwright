@@ -17,6 +17,7 @@ def board_full(b):
     return all(c != " " for r in b for c in r)
 
 
+# noinspection PyBroadException
 def app():
     gameboard = [[" " for _ in range(3)] for _ in range(3)]
     players = ["X", "O"]
