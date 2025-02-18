@@ -1,4 +1,17 @@
 def show_gameboard(board):
+    """
+    Displays the current state of the game board.
+
+    This function takes a 2D list representing the game board and
+    displays it in a visually formatted way for the players. Rows of
+    the board are delimited by horizontal lines, and cells within
+    each row are separated by vertical bars.
+
+    :param board: A 2D list where each sublist represents a row of
+        the game board, and each element within the sublist is a
+        string representing the state of a cell (e.g., "X", "O", or " ").
+    :return: None
+    """
     for row in board:
         print(" | ".join(row))
         print("-" * 5)
