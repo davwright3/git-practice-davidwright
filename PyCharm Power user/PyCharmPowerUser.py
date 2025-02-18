@@ -25,16 +25,7 @@ def app():
     show_gameboard(gameboard)
     for turn in range(9):
         current_player = players[turn % 2]
-        while 1:
-            try:
-                x_coord, y_coord = map(int, input(f"Player {current_player}, enter row col (between 0-2): ").split())
-                if gameboard[x_coord][y_coord] == " ":
-                    gameboard[x_coord][y_coord] = current_player
-                    break
-                else:
-                    print("Nope, that space is taken. Try again.")
-            except:
-                print("Invalid grid, enter integer between 0-2 pls.")
+        game_loop(current_player, gameboard)
         show_gameboard(gameboard)
         if game_won(gameboard, current_player):
             print(f"P {current_player} wins!")
@@ -43,6 +34,19 @@ def app():
             print("Draw!")
             return
     print("Draw!")
+
+
+def game_loop(current_player, gameboard):
+    while 1:
+        try:
+            x_coord, y_coord = map(int, input(f"Player {current_player}, enter row col (between 0-2): ").split())
+            if gameboard[x_coord][y_coord] == " ":
+                gameboard[x_coord][y_coord] = current_player
+                break
+            else:
+                print("Nope, that space is taken. Try again.")
+        except:
+            print("Invalid grid, enter integer between 0-2 pls.")
 
 
 app()
