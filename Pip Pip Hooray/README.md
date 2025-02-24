@@ -14,6 +14,11 @@ Pip Pip Hooray is designed to show students how to install modules, uninstall mo
 
 4. Used pip freeze > all_requirements.txt to generate requirements file.
 
-5. 
+5. Uninstalled all requirements using command pip uninstall -y -r all_requirements.txt (see screenshot in file tree)
+
+6. 
+
+   
+
 
 
