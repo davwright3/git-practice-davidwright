@@ -1,8 +1,19 @@
-# Readme for David Wright Pip Pip Hooray Assignment
+# David Wright -- Pip Pip Hooray Assignment
 
-## Imported necessary modules
+## Purpose
+Pip Pip Hooray is designed to show students how to install modules, uninstall modules, and create requirements.txt.
 
-Activated virtual environment in root project folder.
-Imported geopandas, requests and plotly.  Pandas, numpy, and zipfile were already available.
+
+## List of steps
+
+1. Activated virtual environment in root project folder.
+
+2. Imported geopandas, requests and plotly.  Pandas, numpy, and zipfile were already available.
+
+3. Transcribed code from project directory on Blackboard.
+
+4. Used pip freeze > all_requirements.txt to generate requirements file.
+
+5. 
 
 
