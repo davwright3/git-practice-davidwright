@@ -6,4 +6,14 @@ def test_divide_numbers():
     assert divide_numbers(10, 3) == 3.33
 
 def test_divide_by_zero():
-    assert(divide_numbers(10, 0) == "Error: Division by zero")
+    assert divide_numbers(10, 0) == "Division by zero is not allowed. Please enter a non-zero number."
+
+
+def test_reverse_string():
+    assert reverse_string("Hello12#") == "#21OLLEh"
+
+def test_reverse_string_int():
+    assert reverse_string(123) == "321"
+
+
+
