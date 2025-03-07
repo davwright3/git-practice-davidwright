@@ -1,7 +1,12 @@
 def divide_numbers(a, b):
     """Returns the result of a divided by b, rounded to two decimals."""
-    result = a / b  # Bug: No handling for division by zero
-    return round(result, 2)
+    if b != 0:
+        result = a / b
+        return round(result, 2)
+    else:
+        return "Error: Division by zero"
+        # Bug: No handling for division by zero
+
  
 def reverse_string(s):
     """Returns the reversed string, with each character's case flipped."""
