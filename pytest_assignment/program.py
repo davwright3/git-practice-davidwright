@@ -17,7 +17,8 @@ def reverse_string(s):
  
 def get_list_element(lst, index):
     """Returns the element at the given index in the list, or 'Not found' if out of range."""
-    if index < len(lst):  # Bug: Incorrect boundary check
-        return lst[index]
+    if index < 0 or index >= len(lst):  # Bug: Incorrect boundary check
+        raise IndexError("Index out of Range")
     else:
-        return "Not found"  # Bug: Should probably raise an exception instead
+        return lst[index]
+
