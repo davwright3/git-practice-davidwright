@@ -22,7 +22,12 @@ def test_get_list_element():
 #test edge case
 def test_get_list_element_out_of_range_index_length():
     with pytest.raises(IndexError) as excinfo:
-        get_list_element([1,2,3], 4)
+        get_list_element([1,2,3], 3)
+    assert str(excinfo.value) == "Index out of Range"
+
+def test_get_list_element_out_of_range_negative_index():
+    with pytest.raises(IndexError) as excinfo:
+        get_list_element([1,2,3], -1)
     assert str(excinfo.value) == "Index out of Range"
 
 
