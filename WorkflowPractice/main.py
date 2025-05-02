@@ -1,2 +1,2 @@
-def bad_function(a,b):
+def bad_function(a, b):
     return a+b
